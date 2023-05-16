@@ -26,9 +26,8 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Personal Portfolio <a name="about-project"></a>
+# 📖 Leaderboard <a name="about-project"></a>
 
-![Portfolio-image](./images/p-img.png)
 
 **Leaderboard:** The leaderboard project showcases a website that exhibits scores contributed by diverse players. It offers the opportunity for you to submit your own score as well. The project ensures data persistence through the utilization of an external Leaderboard API service.
 
