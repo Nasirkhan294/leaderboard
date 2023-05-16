@@ -1,12 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Webpack Starter</title>
-	<link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <h1>Hello Webpack!!!</h1>
-</body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Leaderboard</h1>
+    </header>
+    <main>
+      <div class="container">
+        <div class="left">
+          <div class="left-header">
+            <h2>Recent Scores</h2>
+            <button type="reset" class="btn">Reset</button>
+          </div>
+          <ul class="left-lists">
+            <li>Name: 100</li>
+            <li>Name: 20</li>
+            <li>Name: 50</li>
+            <li>Name: 78</li>
+            <li>Name: 125</li>
+            <li>Name: 77</li>
+            <li>Name: 42</li>
+          </ul>
+        </div>
+        <div class="right">
+          <form>
+            <h2>Add your Score</h2>
+            <input type="text" name="name" placeholder="your name" />
+            <input type="text" name="score" placeholder="your score" />
+            <input type="button" value="submit" class="btn" />
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
