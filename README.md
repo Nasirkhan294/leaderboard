@@ -44,6 +44,7 @@
 ### Key Features <a name="key-features"></a>
 
 - [x] **npm project with Webpack**
+- [x] **Dynamic data using API**
 - [x] **Medium fidelity design**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -117,7 +118,7 @@ git push origin {i.e, your repo name}
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Send and Receive Data from an API**
+- [ ] **Updated CSS style**
 - [ ] **Coming Up Soon**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
