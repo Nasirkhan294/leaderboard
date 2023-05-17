@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webpack Starter</title>
+    <link rel="stylesheet" href="styles.css" />
+  <script defer src="index.bundle.js"></script></head>
+  <body>
+    <header>
+      <h1>Leaderboard</h1>
+    </header>
+    <main>
+      <div class="container">
+        <div class="left">
+          <div class="left-header">
+            <h2>Recent Scores</h2>
+            <button type="button" class="btn" id="refresh-btn">Refresh</button>
+          </div>
+          <ul class="score-list"></ul>
+        </div>
+        <div class="right">
+          <form>
+            <h2>Add your Score</h2>
+            <span id="error-msg">Please enter both user's name and score.</span>
+            <input
+              type="text"
+              placeholder="Your Name"
+              id="name-input"
+              required
+            />
+            <input
+              type="number"
+              placeholder="Your Score"
+              id="score-input"
+              required
+            />
+            <button type="button" class="btn" id="submit-btn">Submit</button>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
