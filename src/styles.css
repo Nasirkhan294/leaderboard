@@ -11,19 +11,35 @@ html {
 body {
   font-family: 'Lato', sans-serif;
   font-size: 1em;
+  background: #e8f0e4;
+  line-height: 1.5;
+  margin: 0 auto;
+  width: 70%;
 }
 
 h1 {
   font-size: 4em;
-  margin-left: 2em;
+  color: #351d77;
+  text-decoration: underline #e9b14c;
 }
 
 .btn {
-  width: 5em;
-  height: 2em;
+  width: 7em;
+  height: 3em;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #351d77;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 0.5em;
+  font-weight: 500;
+}
+
+.btn:hover {
+  background-color: #e9b14c;
+  color: #351d77;
 }
 
 .container {
@@ -31,8 +47,7 @@ h1 {
   grid-template-columns: 1fr 1fr;
   align-items: center;
   grid-gap: 5em;
-  margin: 0 auto;
-  width: 70%;
+  margin-left: 2em;
 }
 
 .left-header {
@@ -41,22 +56,42 @@ h1 {
   align-items: center;
 }
 
+#error-msg {
+  display: none;
+  color: #f00;
+  align-self: flex-start;
+  font-size: 1.2em;
+  margin-bottom: 1em;
+}
+
+h2 {
+  font-size: 2em;
+  align-self: flex-start;
+  color: #351d77;
+}
+
 .right {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
-  width: 50%;
 }
 
 .right form {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 
 .right input {
   padding: 0.5em 1em;
   margin-bottom: 1em;
+  width: 100%;
+  border-radius: 0.5em;
+  border: none;
+  outline: none;
+  color: #351d77;
+  padding: 1em;
 }
 
 .right .btn {
@@ -67,10 +102,11 @@ h1 {
 }
 
 .score-list {
-  border: 2px solid #000;
+  border: 4px solid #e9b14c;
+  border-radius: 0.5em;
   width: 100%;
   list-style: none;
-  font-size: 1.125em;
+  font-size: 1.5em;
 }
 
 .score-list li {

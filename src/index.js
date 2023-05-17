@@ -9,6 +9,7 @@ const submitBtn = document.getElementById('submit-btn');
 const nameInput = document.getElementById('name-input');
 const scoreInput = document.getElementById('score-input');
 const scoreList = document.querySelector('.score-list');
+const errorMsg = document.getElementById('error-msg');
 
 let gameId;
 const createGame = async () => {
@@ -42,9 +43,15 @@ refreshBtn.addEventListener('click', async () => {
 
 submitBtn.addEventListener('click', async (event) => {
   event.preventDefault();
-  const name = nameInput.value;
-  const score = scoreInput.value;
-  await submitScores(gameId, name, score);
-  nameInput.value = '';
-  scoreInput.value = '';
+
+  if (nameInput.value === '' || scoreInput.value === '') {
+    errorMsg.style.display = 'flex';
+  } else {
+    const name = nameInput.value;
+    const score = scoreInput.value;
+    await submitScores(gameId, name, score);
+    nameInput.value = '';
+    scoreInput.value = '';
+    errorMsg.style.display = 'none';
+  }
 });
