@@ -1,7 +1,7 @@
 import './styles.css';
 import {
   apiUrl, createList, fetchScores, submitScores,
-} from './modules/scores.js';
+} from './modules/Scores.js';
 
 // Grab HTML elements
 const refreshBtn = document.getElementById('refresh-btn');
