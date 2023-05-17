@@ -53,7 +53,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Working on it]()
+- [Live Project Link](https://nasirkhan294.github.io/leaderboard/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -118,7 +118,7 @@ git push origin {i.e, your repo name}
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Updated CSS style**
+- [ ] **Add or Remove User's Score**
 - [ ] **Coming Up Soon**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

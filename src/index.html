@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Webpack Starter</title>
+    <title>Leaderboard</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -22,8 +22,19 @@
         <div class="right">
           <form>
             <h2>Add your Score</h2>
-            <input type="text" placeholder="Your Name" id="name-input" />
-            <input type="number" placeholder="Your Score" id="score-input" />
+            <span id="error-msg">Please enter both user's name and score.</span>
+            <input
+              type="text"
+              placeholder="Your Name"
+              id="name-input"
+              required
+            />
+            <input
+              type="number"
+              placeholder="Your Score"
+              id="score-input"
+              required
+            />
             <button type="button" class="btn" id="submit-btn">Submit</button>
           </form>
         </div>
