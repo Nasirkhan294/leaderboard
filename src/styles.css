@@ -21,41 +21,38 @@ h1 {
 .btn {
   width: 5em;
   height: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
+  grid-gap: 5em;
+  margin: 0 auto;
+  width: 70%;
 }
 
-.left {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 30%;
-}
 
 .left-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
 }
 
 .right {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 30%;
+  width: 50%;
 }
 
 .right form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 9.5em;
 }
 
 .right input {
@@ -70,14 +67,13 @@ h1 {
   justify-content: center;
 }
 
-.left-lists {
+.score-list {
   border: 2px solid #000;
   width: 100%;
-  padding: 1em 1.5em;
   list-style: none;
   font-size: 1.125em;
 }
 
-.left-lists li {
-  margin-bottom: 1em;
+.score-list li {
+  margin: 1em 0;
 }
